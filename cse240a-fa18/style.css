@@ -2,7 +2,7 @@
 /* Standard HTML tag reset */
 body,
 h1, h2, h3, h4, h5, h6,
-p, 
+p,
 form {
     border: 0;
     margin: 0px;
@@ -12,14 +12,14 @@ form {
 ul {
     list-style-position: outside;
     margin: 12px;
-    padding: 0px;    
+    padding: 0px;
     margin-bottom: 12px;
 }
 
 li {
     list-style-position: outside;
     margin: 12px;
-    padding: 0px;    
+    padding: 0px;
     margin-bottom: 0px;
 }
 
@@ -87,7 +87,7 @@ h6 {font-size: 6px;}
 	background: url('img/act-logo.png') no-repeat center right;
 	background-color: #FFFFFF;
     color: #000000;
-    height: 220px;
+    height: 250px;
     margin-bottom: 6px;
     padding: 12px;
 }
@@ -128,7 +128,7 @@ h6 {font-size: 6px;}
     font-size: 11px;
     padding: 6px;
     padding-left: 12px;
-    
+
 }
 
 .menu,
@@ -203,4 +203,3 @@ h6 {font-size: 6px;}
 }
 
 .menu ul li:last-child a { border: none; }
-
