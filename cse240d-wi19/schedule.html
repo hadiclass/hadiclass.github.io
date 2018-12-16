@@ -1,0 +1,2309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=macintosh">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CSE 240C</title>
+  </head>
+  <body style="tab-interval: .5in" bgcolor="white" lang="EN-US"
+    link="#000000" vlink="purple">
+    <div class="container">
+      <!-- Header -->
+      <div id="intro">
+        <h2> CSE 240C: Advanced Microarchitecture (Winter
+          2018)</h2>
+        <br>
+        <h3>Instructor: <a href="http://cseweb.ucsd.edu/%7Ehadi">Hadi
+            Esmaeilzadeh</a></h3>
+        <br>
+        <h5>Email: hadi [AT] eng [DOT] ucsd [DOT] edu</h5>
+        <h5>Office: CSE 3228</h5>
+        <h5>Office hours: Monday Wednesday 5-6pm</h5>
+        <h5> <br>
+        </h5>
+        <h5>TAs: </h5>
+		<h5>Atieh Lotfi: alotfi [AT] eng [DOT] ucsd [DOT] edu</h5>
+		<h5>Shelby Thomas: sht005 [AT] eng [DOT] ucsd [DOT] edu</h5>
+        	<h5>Office hours: Fridays 3-4pm, B215</h5> 
+      </div>
+      <div id="navbar">
+        <ul class="menu">
+          <li><a href="index.html">Syllabus</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="participation.html">Participation</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li><a href="critique.html">Critique</a></li>
+          <li><a href="project.html">Final Project</a></li>
+        </ul>
+      </div>
+      <!-- Main Content -->
+      <div id="leftcolumn">
+        <h1>Schedule</h1>
+        <meta http-equiv="Content-Type" content="text/html;
+          charset=macintosh">
+        <meta name="ProgId" content="Word.Document">
+        <meta name="Generator" content="Microsoft Word 14">
+        <meta name="Originator" content="Microsoft Word 14">
+        <link rel="File-List"
+          href="cs8803-act-sp14-papers_files/filelist.xml">
+        <!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>Hadi Esmaeilzadeh</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2014-01-03T04:27:00Z</o:Created>
+  <o:LastSaved>2014-01-03T04:27:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1029</o:Words>
+  <o:Characters>5869</o:Characters>
+  <o:Company>Georgia Institute of Technology</o:Company>
+  <o:Lines>48</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6885</o:CharactersWithSpaces>
+  <o:Version>14.0</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+        <link rel="themeData"
+          href="cs8803-act-sp14-papers_files/themedata.xml">
+        <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackRevisions/>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+        <style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-134238209 -371195905 63 0 4129279 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Arial Unicode MS";
+	border:none;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.HeaderFooter, li.HeaderFooter, div.HeaderFooter
+	{mso-style-name:"Header & Footer";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:right 451.0pt;
+	font-size:12.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:"Arial Unicode MS";
+	mso-hansi-font-family:"Arial Unicode MS";
+	mso-bidi-font-family:"Arial Unicode MS";
+	color:black;
+	border:none;}
+p.Body, li.Body, div.Body
+	{mso-style-name:Body;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:Calibri;
+	color:black;
+	border:none;}
+p.TableStyle1, li.TableStyle1, div.TableStyle1
+	{mso-style-name:"Table Style 1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:Helvetica;
+	mso-bidi-font-family:Helvetica;
+	color:black;
+	border:none;
+	font-weight:bold;}
+p.TableStyle2, li.TableStyle2, div.TableStyle2
+	{mso-style-name:"Table Style 2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Helvetica;
+	mso-fareast-font-family:Helvetica;
+	mso-bidi-font-family:Helvetica;
+	color:black;
+	border:none;}
+span.Hyperlink0
+	{mso-style-name:"Hyperlink\.0";
+	mso-style-unhide:no;
+	mso-style-parent:Hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+span.Hyperlink1
+	{mso-style-name:"Hyperlink\.1";
+	mso-style-unhide:no;
+	mso-style-parent:Hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+span.Hyperlink2
+	{mso-style-name:"Hyperlink\.2";
+	mso-style-unhide:no;
+	mso-style-parent:Hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-fareast-font-family:"Arial Unicode MS";
+	border:none;}
+.MsoPapDefault
+	{mso-style-type:export-only;}
+ /* Page Definitions */
+@page
+	{mso-footnote-separator:url(":cs8803-act-sp14-papers_files:header.htm") fs;
+	mso-footnote-continuation-separator:url(":cs8803-act-sp14-papers_files:header.htm") fcs;
+	mso-endnote-separator:url(":cs8803-act-sp14-papers_files:header.htm") es;
+	mso-endnote-continuation-separator:url(":cs8803-act-sp14-papers_files:header.htm") ecs;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.6in;
+	mso-header:url(":cs8803-act-sp14-papers_files:header.htm") h1;
+	mso-footer:url(":cs8803-act-sp14-papers_files:header.htm") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	border:none;}
+</style>
+<![endif]-->
+        <div class="WordSection1">
+          <table class="MsoNormalTable"
+            style="margin-left:5.4pt;background:#BDC0BF;border-collapse:collapse;
+            mso-table-layout-alt:fixed;border:none;mso-border-alt:solid
+            black .25pt; mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt
+            0in 5.4pt;mso-border-insideh: .25pt solid
+            black;mso-border-insidev:.25pt solid black" border="1"
+            cellpadding="0" cellspacing="0" width="464">
+            <thead> <tr
+                style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  mso-border-alt:solid black
+                  .25pt;mso-border-bottom-alt:solid black .5pt;
+                  padding:4.0pt 4.0pt 4.0pt 4.0pt;height:13.35pt"
+                  valign="top" width="20">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p>&nbsp;</o:p></font></p>
+                </td>
+                <td style="width:59.0pt;border:solid black 1.0pt;
+                  border-left:none;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-bottom-alt:solid black .5pt;padding:4.0pt
+                  4.0pt 4.0pt 4.0pt; height:13.35pt" valign="top"
+                  width="59">
+                  <p class="TableStyle1"><font face="Helvetica, Arial,
+                      sans-serif">Date</font></p>
+                </td>
+                <td style="width:93.5pt;border:solid black 1.0pt;
+                  border-left:none;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-bottom-alt:solid black .5pt;padding:4.0pt
+                  4.0pt 4.0pt 4.0pt; height:13.35pt" valign="top"
+                  width="94">
+                  <p class="TableStyle1"><font face="Helvetica, Arial,
+                      sans-serif">Topic</font></p>
+                </td>
+                <td style="width:2.75in;border:solid black 1.0pt;
+                  border-left:none;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-bottom-alt:solid black .5pt;padding:4.0pt
+                  4.0pt 4.0pt 4.0pt; height:13.35pt" valign="top"
+                  width="198">
+                  <p class="TableStyle1"><font face="Helvetica, Arial,
+                      sans-serif">Reading Assignment</font></p>
+                </td>
+                <td style="width:93.5pt;border:solid black 1.0pt;
+                  border-left:none;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-bottom-alt:solid black .5pt;padding:4.0pt
+                  4.0pt 4.0pt 4.0pt; height:13.35pt" valign="top"
+                  width="94">
+                  <p class="TableStyle1"><font face="Helvetica, Arial,
+                      sans-serif">Presenter</font></p>
+                  <!--  jspark modified <p class=MsoNormal><o:p>&nbsp;</o:p></p> -->
+                </td>
+              </tr>
+            </thead> <tbody>
+              <tr style="mso-yfti-irow:1;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><font face="Helvetica, Arial,
+                      sans-serif"><b><span style="font-size: 10pt;">1</span></b></font></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B2+2\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/08/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-top-alt:
+                  .5pt;mso-border-left-alt:.5pt;mso-border-bottom-alt:.25pt;mso-border-right-alt:
+
+                  .25pt;mso-border-color-alt:black;mso-border-style-alt:solid;background:#EEEEEE;
+
+                  padding:4.0pt 4.0pt 4.0pt 4.0pt;height:13.35pt"
+                  valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><font face="Helvetica, Arial,
+                        sans-serif">Dark Silicon</font></font> </p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .5pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;mso-border-top-alt:solid black .5pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><font face="Helvetica, Arial,
+                        sans-serif"><a
+href="http://www.cc.gatech.edu/%7ehadi/doc/paper/2013-cacm-dark_silicon.pdf"><span
+                            class="hyperlink0">Power Challenges May End
+                            the Multicore Era</span></a> <br><br>Denard Scaling paper: 
+				<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1050511"><span
+                            class="hyperlink0">Design of ion-implanted mosfet s with very small physical dimensions</span></a> </font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p></o:p><a
+                        href="mailto:hadi@ucsd.edu"><font size="-1"></font></a></font></p>
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:1;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><font face="Helvetica, Arial,
+                      sans-serif"><b><span style="font-size: 10pt;">2</span></b></font></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B2+2\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/10/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-top-alt:
+                  .5pt;mso-border-left-alt:.5pt;mso-border-bottom-alt:.25pt;mso-border-right-alt:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  .25pt;mso-border-color-alt:black;mso-border-style-alt:solid;background:transparent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  padding:4.0pt 4.0pt 4.0pt 4.0pt;height:13.35pt"
+                  valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><font face="Helvetica, Arial,
+                        sans-serif">Unifying Machine Learning Accelerators</font></font> </p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .5pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;mso-border-top-alt:solid black .5pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><font face="Helvetica, Arial,
+                        sans-serif"><a href="http://www.cc.gatech.edu/~hadi/doc/paper/2016-hpca-tabla.pdf"><span
+                            class="Hyperlink0">TABLA: A Unified Template-Based Framework for Accelerating Statistical Machine Learning</span></a> (you can find the TABLA homepage <a href="http://act-lab.org/artifacts/tabla/"><span
+                            class="Hyperlink0">here)</span></a><br><br>
+							<a href="http://www.cs.stanford.edu/people/chrismre/papers/bismarck.pdf"><span
+                            class="Hyperlink0">Towards a Unified Architecture for in-RDBMS Analytics</span></a>
+							
+							</font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p></o:p><a
+                        href="mailto:"><font size="-1"></font></a></font></p>
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:3;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A3+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">3</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B2+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/15/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">M.L.K, Jr. National Holiday</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><a
+                        href="http://people.csail.mit.edu/rinard/paper/fse11.pdf"><span
+                          class="Hyperlink0"><br>
+                        </span></a></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="94">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p>&nbsp;</o:p></font></p>
+                  <font face="Helvetica, Arial, sans-serif"><br>
+                  </font> </td>
+              </tr>
+              <tr style="mso-yfti-irow:2;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A2+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">4</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B2+2\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/17/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Machine Learning Accelerators</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+			<p class="TableStyle2">Mandatory Readings:<br><a
+href="http://"><font
+                        face="Helvetica, Arial, sans-serif"></font></a><font
+                      face="Helvetica, Arial, sans-serif">
+		<a href="https://dl.acm.org/citation.cfm?id=3123979"><span
+                          class="Hyperlink0">Scale-Out Acceleration for Machine Learning</span></a>
+		<br><br><a href="http://martin.zinkevich.org/publications/nips2010.pdf"><span
+                            class="Hyperlink0">Parallelized Stochastic Gradient Descent</span></a>
+		<br><br> Optional: <br><a href="https://arxiv.org/pdf/1609.04747.pdf"><span
+                            class="Hyperlink0">An overview of gradient descent optimization algorithms</span></a>
+
+		</font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:4;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A4+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">5</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B3+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/22/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Machine Learning Accelerators</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><a
+href="http://"><font
+                        face="Helvetica, Arial, sans-serif"><font
+                          size="-1"><font face="Helvetica, Arial,
+                            sans-serif"></font></font></font></a><font
+                      face="Helvetica, Arial, sans-serif"><font
+                        size="-1"><font face="Helvetica, Arial,
+                          sans-serif"><a
+href="https://dl.acm.org/citation.cfm?id=2541967">DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning</span></a>
+<br><br><a href="https://dl.acm.org/citation.cfm?id=2742217"><span
+                            class="Hyperlink0">DaDianNao: A Machine-Learning Supercomputer </span></a>
+
+			  <br><br><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7866802"><span
+                           class="Hyperlink0">Optional: FPGAS vs GPUS in Datacenters</span></a> 
+			  <br><br><a href="http://ieeexplore.ieee.org/document/7551407/"><span
+                           class="Hyperlink0">Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks</span></a>
+</font></font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:4;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A4+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">6</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B3+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/24/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Scalable Deep Networks</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><a
+href="http:"><font
+                        face="Helvetica, Arial, sans-serif"></font></a><font
+                      face="Helvetica, Arial, sans-serif"><a
+href="https://dl.acm.org/citation.cfm?id=2685094"><span
+                          class="Hyperlink0">Project Adam: building an efficient and scalable deep learning training system</span></a>
+			  <br><br><a href="https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf"><span
+                           class="Hyperlink0">Large Scale Distributed Deep Networks</span></a>
+
+
+		</font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:6;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A6+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">7</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B5+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/29/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Distributed Training</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><a
+href="http://"><font
+                        face="Helvetica, Arial, sans-serif" size="-1"><font
+                          face="Helvetica, Arial, sans-serif"></font></font></a><font
+                      face="Helvetica, Arial, sans-serif" size="-1"><font
+                        face="Helvetica, Arial, sans-serif"><a
+href="https://arxiv.org/abs/1706.04972"><span
+                            class="Hyperlink0">Device Placement Optimization with Reinforcement Learning [ICML17]</span></a><br><br>
+<a href="https://arxiv.org/abs/1712.01887"><span
+                            class="Hyperlink0">Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training [Submitted to ICLR18]</span></a>
+</font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:jspark@gatech.edu">Jongse Park</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:5;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A5+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">8</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B4+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">01/31/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><font face="Helvetica,
+                      Arial, sans-serif">Variable-Bitwidth DNN Acceleration</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><a
+                      href="http://"><font
+                        face="Helvetica, Arial, sans-serif"><font
+                          size="-1"></font></font></a><font
+                      face="Helvetica, Arial, sans-serif"><font
+                        size="-1"><a
+                          href="http://ieeexplore.ieee.org/document/7783722/"><span
+                            class="Hyperlink0">Stripes: Bit-Serial Deep Neural Network Computing</span></a>
+			<br><br><a href="https://arxiv.org/abs/1712.01507v1"><span
+                            class="hyperlink0">Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Networks</span></a> 
+		</font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:jspark@gatech.edu">Jongse Park</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:7;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A7+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">9</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B6+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/05/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Approximate Computing</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif" size="-1"><a
+                        href="https://www.cc.gatech.edu/~hadi/doc/paper/2012-micro-npu.pdf"><span
+                          class="Hyperlink0">Neural Acceleration for General-Purpose Approximate Programs</span></a><br><br>
+			<a href="https://www.cc.gatech.edu/~hadi/doc/paper/2014-isca-anpu.pdf"><span
+                          class="Hyperlink0">General-Purpose Code Acceleration with Limited-Precision Analog Computation</span></a></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:8;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A8+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">10</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B7+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/07/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Tiled/Dataflow Architectures </font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><font face="Helvetica,
+                      Arial, sans-serif"><a
+                        href="http://"><span
+                          class="Hyperlink1"></span></a></font></p>
+                  <small><font face="Helvetica, Arial, sans-serif"><a href="http://www.cs.utexas.edu/users/cart/trips/publications/isca03.pdf"><span
+                          class="Hyperlink2">Exploiting ILP, TLP, and DLP with the Polymorphous TRIPS Architecture</span></a><br><br>
+			<a href="http://csl.stanford.edu/~christos/publications/2010.efficiency.isca.pdf"><span class="Hyperlink2">Understanding Sources of Inefficiency in General-Purpose Chips</span></a>
+</font></small> </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:8;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A8+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">10</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B7+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/12/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Tiled/Dataflow Architectures </font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><font face="Helvetica,
+                      Arial, sans-serif"><a
+                        href="http://"><span
+                          class="Hyperlink1"></span></a></font></p>
+                  <small><font face="Helvetica, Arial, sans-serif">
+
+	<a href="https://dl.acm.org/citation.cfm?id=1233308"><span
+                            class="Hyperlink0">The WaveScalar architecture</span></a>
+				<br><br><a href="http://groups.csail.mit.edu/cag/raw/documents/ieee-micro-2002.pdf"><span
+                            class="Hyperlink0">The raw microprocessor: A computational fabric for software circuits and general purpose programs</span></a>
+</font></small> </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:9;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A9+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">11</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B8+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/14/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">No class</font></p>
+                </td>
+                  <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><a
+                      href=""><font
+                        face="Helvetica, Arial, sans-serif"></font></a><font
+                      face="Helvetica, Arial, sans-serif"><a
+                        href="https://"><span
+                          class="Hyperlink1"></span></a></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:"></a><br>
+                </td>
+             </tr>
+              <tr style="mso-yfti-irow:12;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A12+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">12</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B11+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/19/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">Presidents' Day Holiday</font></p>
+                </td>
+                         <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><a
+                      href=""><font
+                        face="Helvetica, Arial, sans-serif"></font></a><font
+                      face="Helvetica, Arial, sans-serif"><a
+                        href="https://"><span
+                          class="Hyperlink1"></span></a></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:black;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:"></a><br>
+                </td>
+     </tr>
+              <tr style="mso-yfti-irow:14;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A14+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">13</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B13+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/21/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">Project proposals </font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><a
+                        href="http://"><span
+                          class="Hyperlink0"></span></a></font></p>
+                  <font face="Helvetica, Arial, sans-serif" size="-1"><font
+                      face="Helvetica, Arial, sans-serif"><a
+                        href="http://"><span
+                          class="Hyperlink0"></span></a></font> </font>
+                  <small><font face="Helvetica, Arial, sans-serif"
+                      size="-1"><font face="Helvetica, Arial,
+                        sans-serif"> None
+				</font></font></small><br>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:10;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A10+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">14</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B9+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/26/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Access-Execute Architectures</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><a href="https://dl.acm.org/citation.cfm?id=801719"><span
+                            class="Hyperlink0">Decoupled access/execute computer architectures</span></a>
+				<br><br><a href="http://research.cs.wisc.edu/vertical/papers/2017/isca17-stream-dataflow.pdf"><span
+                            class="Hyperlink0">Stream-Dataflow Acceleration</span></a>
+				<br><br> Optional: <br><a href="http://research.cs.wisc.edu/vertical/papers/2011/hpca11-dyser.pdf"><span
+                            class="Hyperlink0">Dynamically Specialized Datapaths for Energy Efficient Computing</span></a>
+			    <br><br> Optional: <br><a href="https://pdfs.semanticscholar.org/dcae/15f23b8e60a32d1c271ebb5b800552500f42.pdf"><span
+                            class="Hyperlink0">Meet the Walkers: Accelerating Index Traversals for In-Memory Databases</span></a></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:9;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A9+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">15</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B8+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">02/28/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">Multi Threading/Value Prediction</span></font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><a
+                      href="https://"><font
+                        face="Helvetica, Arial, sans-serif" size="-1"><font
+                          face="Helvetica, Arial, sans-serif" size="-1">
+<a href="http://dl.acm.org/authorize?87150"><span
+                            class="Hyperlink0">Exploiting Choice: Instruction Fetch and Issue on an Implementable Simultaneous Multithreading</span></a>
+				<br><br><a href="http://ieeexplore.ieee.org/document/645819/"><span
+                            class="Hyperlink0">Highly Accurate Data Value Prediction using Hybrid Predictors</span></a></font></font></a></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:hadi@cs.ucsd.edu">Hadi Esmaeilzadeh</a><br>
+                </td>              </tr>
+              <tr style="mso-yfti-irow:11;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A11+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">17</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B10+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/05/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">No Class</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><font face="Helvetica, Arial,
+                        sans-serif" size="-1"><a
+                          href="http://"><span
+                            class="Hyperlink0">Project Development</span></a></font></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:"> </a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:15;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A15+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">18</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B14+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/07/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE"></span>No Class </font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><a
+                      href="https://"><font
+                        face="Helvetica, Arial, sans-serif" size="-1"><font
+                          face="Helvetica, Arial, sans-serif" size="-1"><a
+href="http://"><span
+                              class="Hyperlink0">Project Development </span></a></font></font></a></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:"> </a><br>
+                </td>              </tr>
+              <tr style="mso-yfti-irow:15;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A15+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">19</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B14+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/12/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif"><span class="SpellE">Branch Prediction</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="TableStyle2" style="tab-stops:28.0pt 56.0pt
+                    84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in
+                    280.0pt 308.0pt 336.0pt"><a
+                      href="http://"><font
+                        face="Helvetica, Arial, sans-serif"></font></a><font
+                      face="Helvetica, Arial, sans-serif">
+<a href="http://ieeexplore.ieee.org/document/742770/"><span
+                            class="Hyperlink0">1. The YAGS branch prediction scheme </span></a>
+				<br><br><a href="https://dl.acm.org/citation.cfm?id=545249"><span
+                            class="Hyperlink0">2. Design Tradeoffs for the Alpha EV8 Conditional Branch Predictor</span></a>
+			<br><br><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1431573"><span
+                            class="Hyperlink0">3. Analysis of the O-GEometric History Length branch predictor</span></a>
+				<br><br><a href="https://dl.acm.org/citation.cfm?id=571639"><span
+                            class="Hyperlink0">4. Neural methods for dynamic branch prediction</span></a>
+				<br><br> Optional: <br><a href="https://www.jilp.org/vol9/v9paper6.pdf"><span
+                            class="Hyperlink0">The L-TAGE Branch Predictor </span></a>
+
+</font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <a href="mailto:chl218@ucsd.edu">1. Chao Li</a><br><br><a href="mailto:umallapp@ucsd.edu">2. Uday Mallappa </a><br><br>
+		  <a href="mailto:vap014@ucsd.edu">3. Vasudev Patel</a><br><br><a href="mailto:a1yousse@ucsd.edu">4. Ahmed Youssef</a><br>
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:17;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A17+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">20</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B16+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/14/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif" size="-1"><font face="Helvetica,
+                        Arial, sans-serif" size="-1">Scale-Out Acceleration</font></font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><a
+                      href="https://"><font
+                        face="Helvetica, Arial, sans-serif" size="-1"><font
+                          face="Helvetica, Arial, sans-serif" size="-1">
+<a
+href="https://dl.acm.org/citation.cfm?id=2665678"><span class="Hyperlink0">1. A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services</span></a>
+				<br><br><a href="http://ieeexplore.ieee.org/document/7783710/"><span
+                            class="Hyperlink0">2. A Cloud-Scale Acceleration Architecture</span></a>
+				<br><br> Optional: <a href="https://dl.acm.org/citation.cfm?id=3001156"> <span
+                            class="Hyperlink0">3. ASIC Clouds: Specializing the Datacenter</span></a>
+				<br><br> Optional: <a href="https://research.fb.com/wp-content/uploads/2017/12/hpca-2018-facebook.pdf"> <span
+                            class="Hyperlink0">4. Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective</span></a>
+</font></font></a></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                
+                  <a href="mailto:bkhalegh@ucsd.edu">1. Behnam Khaleghi</a><br><br><a href="mailto:t6shah@ucsd.edu">2. Tushar Shah </a><br><br><a href="mailto:anr044@ucsd.edu">3. Anuj Rao </a> <br><br><a href="mailto:mail2nivedha@gmail.com">4. Nivedha Krishna </a>  <br>
+
+
+
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:22;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A22+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">21</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B21+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/19/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif" size="-1">No Class - Final exam week</font></p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><a
+                      href="https://"><font
+                        face="Helvetica, Arial, sans-serif" size="-1"><font
+                          face="Helvetica, Arial, sans-serif" size="-1"></font></font></a></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .5pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-top-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                </td>
+              </tr>
+              <tr style="mso-yfti-irow:21;height:13.35pt">
+                <td style="width:20.0pt;border:solid black 1.0pt;
+                  border-top:none;mso-border-top-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="20">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= A21+1 \# &quot;0&quot; \* MERGEFORMAT<span
+  style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">22</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:59.0pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  mso-border-right-alt:solid black
+                  .5pt;background:transparent;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="59">
+                  <p class="MsoNormal" style="text-align:right"
+                    align="right"><!--[if supportFields]><span
+  style='mso-element:field-begin'></span><span
+  style="mso-spacerun:yes">&nbsp;</span>= B20+7\@ &quot;MM/dd/yyyy&quot; \*
+  MERGEFORMAT<span style='mso-element:field-separator'></span><![endif]--><font
+                      face="Helvetica, Arial, sans-serif"><b><span
+                          style="font-size: 10pt;">03/21/2018</span></b></font><!--[if supportFields]><span
+  style='mso-element:field-end'></span><![endif]--></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .5pt;mso-border-alt:solid black .25pt;
+                  mso-border-left-alt:solid black
+                  .5pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="94">
+                  <p class="TableStyle2"><font face="Helvetica, Arial,
+                      sans-serif">Project Presentation</font> </p>
+                </td>
+                <td style="width:2.75in;border-top:none;border-left:
+                  none;border-bottom:solid black
+                  1.0pt;border-right:solid black 1.0pt;
+                  mso-border-top-alt:solid black
+                  .25pt;mso-border-left-alt:solid black .25pt;
+                  mso-border-alt:solid black
+                  .25pt;background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt; height:13.35pt" valign="top" width="198">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p>&nbsp;</o:p></font></p>
+                </td>
+                <td
+                  style="width:93.5pt;border-top:none;border-left:none;
+                  border-bottom:solid black 1.0pt;border-right:solid
+                  black 1.0pt;mso-border-top-alt: solid black
+                  .25pt;mso-border-left-alt:solid black
+                  .25pt;mso-border-alt:solid black .25pt;
+                  background:#EEEEEE;padding:4.0pt 4.0pt 4.0pt
+                  4.0pt;height:13.35pt" valign="top" width="94">
+                  <p class="MsoNormal"><font face="Helvetica, Arial,
+                      sans-serif"><o:p>&nbsp;</o:p></font></p>
+                </td>              </tr>
+ 
+              <tr>
+            </tbody>
+          </table>
+          <span
+            style="font-size:11.0pt;font-family:Calibri;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;mso-ansi-language:EN-US;mso-fareast-language:
+
+
+
+
+
+
+
+
+
+
+
+
+
+            EN-US;mso-bidi-language:AR-SA"><br
+              style="mso-special-character:line-break;
+              page-break-before:always" clear="all">
+          </span>
+          <p class="Body"><o:p>&nbsp;</o:p></p>
+          <p class="Body"><o:p>&nbsp;</o:p></p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div id="footer"> Last update: February 2018 </div>
+    </div>
+  </body>
+</html>
