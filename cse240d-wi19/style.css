@@ -203,4 +203,13 @@ h6 {font-size: 6px;}
 }
 
 .menu ul li:last-child a { border: none; }
-
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-jkmc{background-color:#f9f9f9;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-096r{color:#000000;text-align:left;vertical-align:top}
+.tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
+.tg .tg-nob6{color:#000000;text-align:right;vertical-align:top}
+.tg .tg-14gg{background-color:#ffffff;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-lfan{background-color:#f9f9f9;color:#000000;text-align:right;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
