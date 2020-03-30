@@ -1,1 +1,0 @@
-# hadiclass.github.io
